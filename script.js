@@ -1,1 +1,3 @@
-// TODO: add code here
+window.addEventListener('load', function(){
+    console.log ('window loaded');
+})
