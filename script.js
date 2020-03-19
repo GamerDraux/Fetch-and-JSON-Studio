@@ -8,6 +8,8 @@ window.addEventListener('load', function(){
                 return a.hoursInSpace- b.hoursInSpace;
             });
             json=json.reverse();
+            let title = document.querySelector('h1');
+            title.innerHTML=title.innerHTML + ` ${json.length} in crew`;
             for (i=0; i<json.length; i++){
                 let container= document.getElementById('container');
                 container.innerHTML=container.innerHTML+(`
